@@ -1,0 +1,29 @@
+.A {
+  background-color: blue;
+  border-radius: 15px;
+  border: 1px solid blue;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.B {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgb(139, 134, 134);
+  color: rgb(129, 124, 124);
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; /* 박스 배경 그림자 */
+}
+
+.C {
+  background-color: black;
+  border-radius: 15px;
+  border: 1px solid black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}

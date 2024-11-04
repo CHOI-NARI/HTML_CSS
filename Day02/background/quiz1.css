@@ -1,0 +1,18 @@
+.hotel {
+  background-image: url("hotel.jpg");
+  background-size: cover;
+  background-color: beige;
+  width: 800px;
+  height: 800px;
+  padding: 20px 20px;
+  margin: 50px;
+  border-radius: 20px;
+}
+.H {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  /* text-decoration: underline;  */
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+}

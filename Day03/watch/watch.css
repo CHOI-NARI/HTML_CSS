@@ -1,0 +1,71 @@
+.total {
+  width: 470px;
+  height: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.watch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gray {
+  background-color: rgb(236, 233, 233);
+  width: 100px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.star {
+  color: rgb(238, 177, 10);
+  font-size: 23px;
+}
+
+.number {
+  color: gray;
+  font-size: 20px;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(232, 242, 250);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 17px;
+  border: 1px solid rgb(232, 242, 250);
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.box {
+  margin: 15px;
+}
+
+.heart {
+  background-color: rgb(233, 228, 228);
+  color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  position: absolute;
+  bottom: 280px;
+  right: 10px;
+  font-size: 40px;
+}

@@ -1,0 +1,20 @@
+.card {
+  width: 180px; /*전체의 너비*/
+  height: 250px; /*전체의 높이*/
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /*전체의 그림자 효과*/
+  border-radius: 6px; /*전체의 모서리*/
+}
+.card > img {
+  width: 100%; /*사진의 너비가 전체의 100%를 차지함 */
+  height: 70%; /*사진의 높이가 전체의 70%를 차지함*/
+  object-fit: cover;
+}
+
+.card > div {
+  margin-left: 3px;
+}
+
+.word {
+  color: red;
+  font-weight: bold;
+}

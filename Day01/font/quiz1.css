@@ -1,0 +1,20 @@
+.K {
+  background-color: yellow;
+  border: yellow;
+  border-radius: 4px;
+  padding: 10px 93px;
+  word-spacing: 3px; /*가로 자간 조정*/
+}
+
+.A {
+  background-color: white;
+  padding: 10px 100px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.H {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid gray;
+}

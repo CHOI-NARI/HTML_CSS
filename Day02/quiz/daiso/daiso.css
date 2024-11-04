@@ -1,0 +1,46 @@
+.daiso {
+  width: 400px;
+}
+.in {
+  width: 100%;
+  position: relative;
+}
+.in > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /*본래 이미지 비율 보존*/
+}
+.in > i {
+  position: absolute; /* 단독으로 사용 불가 + 부모 객체에 6열 position : relative 와 15, 16, 17열과 셋트로 입력 */
+  bottom: 20px;
+  right: 20px;
+  padding: 15px;
+  border-radius: 9999px;
+  background-color: pink;
+}
+.price {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.word {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden; /*31열~34열 셋트로 말줄임*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.word > span {
+  font-weight: bold;
+}
+.p {
+  color: rgb(180, 171, 171);
+}
+
+.delivery {
+  background-color: rgb(207, 107, 107);
+  margin-top: 20px;
+}
