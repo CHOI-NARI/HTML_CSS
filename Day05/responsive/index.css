@@ -1,0 +1,36 @@
+.boxOne {
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+}
+
+/* 768보다 화면이 작으면 아래 css 적용해줘~ */
+@media screen and (max-width: 768px) {
+    .boxOne {
+        background-color: skyblue;
+    }
+}
+
+/* 
+quiz
+
+1. pc버전이면 (socar) home & about 있고, pc버전이 아니면 햄버거 나타나기
+
+2. pc버전 네모 4*1 4개가 있고
+    tablet 버전 네모가 2*2 2개 2개 가로로
+    mobile 버전 네모가 1*4 4개가 세로로 나란히 있기 */
+.boxTwo {
+    width: 100px;
+    height: 70px;
+    background-color: bisque;
+}
+
+.boxThree {
+    display: flex;
+}
+.board {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid black;
+} 

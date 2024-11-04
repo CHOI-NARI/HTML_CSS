@@ -1,0 +1,68 @@
+body {
+  width: 100vw;
+  height: 1300px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 500px;
+  height: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.sentence {
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+  gap: 80px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.photo {
+  width: 100%;
+  height: 500px;
+  border: 1px solid blue;
+  position: relative;
+}
+
+h1 {
+  color: greenyellow;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  top: 100px;
+}

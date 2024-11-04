@@ -1,0 +1,44 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 9999px;
+    animation: flip-horizontal-bck 1s infinite alternate ;
+}
+
+@keyframes test {
+0% {background-color: pink;}
+50%{background-color: skyblue;}
+100%{background-color: green;}
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translate(0);
+    }
+
+    40% {
+        
+    }
+}
+
+@-webkit-keyframes flip-horizontal-bck {
+    0% {
+      -webkit-transform: translateZ(0) rotateX(0);
+              transform: translateZ(0) rotateX(0);
+    }
+    100% {
+      -webkit-transform: translateZ(-260px) rotateX(180deg);
+              transform: translateZ(-260px) rotateX(180deg);
+    }
+  }
+  @keyframes flip-horizontal-bck {
+    0% {
+      -webkit-transform: translateZ(0) rotateX(0);
+              transform: translateZ(0) rotateX(0);
+    }
+    100% {
+      -webkit-transform: translateZ(-260px) rotateX(180deg);
+              transform: translateZ(-260px) rotateX(180deg);
+    }
+  }

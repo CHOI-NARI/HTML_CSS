@@ -1,0 +1,36 @@
+.dog {
+    height: 300px;
+    background-color: black;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 100px;
+}
+
+.man {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.fistLine {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hodu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.jadu {
+    gap: 20px;
+    font-size: 13px;
+}
+
+.girl {
+    margin-top: 20px;
+    font-size: 14px;
+}

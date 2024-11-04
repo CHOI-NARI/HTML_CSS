@@ -1,0 +1,15 @@
+body {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}

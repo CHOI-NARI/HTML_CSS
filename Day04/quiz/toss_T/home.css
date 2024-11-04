@@ -1,0 +1,10 @@
+.home {
+  width: 100vw;
+}
+
+.home > article {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  border: 10px solid red;
+}

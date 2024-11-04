@@ -1,0 +1,31 @@
+.header {
+  width: 100vw;
+}
+.groupOne {
+  width: 100%;
+  height: 800px;
+  background-image: url(../image/food01.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  width: 500px;
+  object-fit: cover;
+}
+.groupTwo {
+  width: 80%;
+  background-color: rgb(212, 210, 210);
+}
+.list {
+  width: 800px;
+  height: 300px;
+}
+.list > img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
